@@ -1,0 +1,24 @@
+@import './core/mixins.scss';
+@import './core/variables.scss';
+
+.footer{
+    font-family: $main_font;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4fr 1fr;
+    background-color: black;
+    padding: 15px 49px 40px 18px;
+    row-gap: 32px;
+    
+    &_nav{
+        display: flex;
+        flex-direction: column;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+    }
+}
+
+.footer a {
+    color:white; 
+    text-decoration: none;
+}

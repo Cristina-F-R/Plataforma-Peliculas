@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 
 const Landing = () =>{
@@ -5,6 +6,7 @@ const Landing = () =>{
         <>
         <Header/>
         {/* header + AllLists + footer */}
+        <Footer/>
         </>
     )
 }

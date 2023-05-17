@@ -1,0 +1,167 @@
+[
+    {
+    "id":1,
+    "title":"Comedy1",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "comedy",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": true,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":2,
+    "title":"Comedy2",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "comedy",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": true,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":3,
+    "title":"Thriller1",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "thriller",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": true,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":4,
+    "title":"thriller",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "thriller",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":5,
+    "title":"Comedy3",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "comedy",
+    "cast":["actor1", "actress1"],
+    "favorites": false,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":6,
+    "title":"Thriller",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "thriller",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": true,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":7,
+    "title":"Comedy",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "comedy",
+    "cast":["actor1", "actress1"],
+    "favorites": false,
+    "comming soon": true,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":8,
+    "title":"thriller",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "thriller",
+    "cast":["actor1", "actress1"],
+    "favorites": false,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":9,
+    "title":"Comedy",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "comedy",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":10,
+    "title":"thriller",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "thriller",
+    "cast":["actor1", "actress1"],
+    "favorites": false,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":11,
+    "title":"Drama",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "drama",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": true,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":12,
+    "title":"Drama",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "drama",
+    "cast":["actor1", "actress1"],
+    "favorites": false,
+    "comming soon": true,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":13,
+    "title":"drama",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "drama",
+    "cast":["actor1", "actress1"],
+    "favorites": false,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":14,
+    "title":"Comedy",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "comedy",
+    "cast":["actor1", "actress1"],
+    "favorites": false,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+},
+    {
+    "id":15,
+    "title":"Comedy",
+    "summary":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vero aperiam velit nobis soluta error voluptas ipsum. Mollitia praesentium voluptatem, optio libero debitis ratione veritatis! Fugiat sed sunt possimus dolores?",
+    "genre": "comedy",
+    "cast":["actor1", "actress1"],
+    "favorites": true,
+    "comming soon": false,
+    "img": "../images/img_movie.png",
+    "cover": "../images/cover.png"
+}
+]

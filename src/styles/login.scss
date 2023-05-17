@@ -1,0 +1,72 @@
+@import './core/variables.scss';
+@import './core/reset.scss';
+@import './core/mixins.scss';
+
+.login{
+    @include flex_center;
+    background-image: url('../images/fondo.jpg');
+    min-height: 100vh;
+    font-family: $main_font;
+
+    &_container{
+        @include flex_center;
+        min-width: 32rem;
+        max-width: 35.2rem;
+        height: 39.4rem;
+        background: #000000;
+        border-radius: 16px;
+        display: flex; 
+
+        &_form{
+            margin: 0 0.8rem;
+            @include flex_center;
+            flex-direction: column;
+            gap: 1.8rem;
+            width: 100%;
+            &_label{
+                width: 100%;
+                &_input{
+                    @include input;
+                    width: 100%;
+                    color:white;
+                }
+                &_input::placeholder{
+                    color:white;
+                }
+            }
+            &_btn{
+                @include btn;
+                width: 100%;
+                
+            }
+        }
+    }
+}
+
+@media(min-width: $tablet-breakpoint){
+    .login {
+        position: relative;
+            &_container {
+                position: absolute;
+                right: 3.2rem;
+                width: 35.2rem;
+                &_form {
+                    margin: 0 1.6rem;    
+                }
+            }
+        }
+}
+@media(min-width: $desktop-breakpoint){
+    .login {
+            &_container {
+                right: 12rem;
+            }
+        }
+}
+@media(min-width: $ultradesktop-breakpoint){
+    .login {
+            &_container {
+                right: 13rem;
+            }
+        }
+}

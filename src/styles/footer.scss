@@ -2,23 +2,55 @@
 @import './core/variables.scss';
 
 .footer{
-    font-family: $main_font;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 4fr 1fr;
+    height: 285px;
     background-color: black;
-    padding: 15px 49px 40px 18px;
-    row-gap: 32px;
-    
-    &_nav{
-        display: flex;
-        flex-direction: column;
-        font-size: 2.4rem;
-        line-height: 2.8rem;
+    padding: 0px 49px 0px 18px;
+    display: flex;
+    align-items: center;
+
+    &_content{   
+        width: 100%;     
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: max-content max-content;
+        row-gap: 32px;
+        
+        &_nav{
+            display: flex;
+            flex-direction: column;
+            font-family: $main_font;
+        }
     }
 }
 
-.footer a {
+.footer a {//revisar maárgenes y alineaciones
     color:white; 
     text-decoration: none;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+}
+
+@media (min-width: $tablet-breakpoint){
+    .footer {
+        height: 220px;
+        padding: 0px 32px;
+        &_content{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: max-content;
+        }
+    
+    }
+}
+@media (min-width: $desktop-breakpoint){
+    .footer {
+        padding: 0px 120px;
+    
+    }
+}
+@media (min-width: $tablet-breakpoint){
+    .footer {
+        padding: 0px 130px;
+    
+    }
 }

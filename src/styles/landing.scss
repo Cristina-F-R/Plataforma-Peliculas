@@ -1,0 +1,46 @@
+@import './core/mixins.scss';
+@import './core/variables.scss';
+
+.main{
+    background-color: $main-background;
+    &_buttons {
+        margin-left: $margin-mobile;
+            &_btn {
+                font-family: $secondary_font;
+                font-size: 1.8rem;
+                border-radius: 1.6rem;
+                font-weight: 400;
+                line-height: 21px;
+                width: 12.5rem;
+                height: 4.6rem;
+                border: none;
+                background-color: white;
+                margin-top: 4rem;
+                margin-right: 1.4rem;
+            }
+    }
+}
+
+@media (min-width: $tablet_breakpoint){
+    .main{
+        &_buttons{
+            margin-left: $margin-tablet;       
+        }
+    }  
+}
+
+@media (min-width: $desktop_breakpoint){
+    .main{
+        &_buttons{
+            margin-left: $margin-desktop;       
+        }
+    }  
+}
+
+@media (min-width: $ultradesktop_breakpoint){
+    .main{
+        &_buttons{
+            margin-left: $margin-ultradesktop;       
+        }
+    }  
+}

@@ -1,0 +1,88 @@
+@import './core/mixins.scss';
+@import './core/variables.scss';
+
+
+.lists{
+    padding-bottom: 2.9rem;
+    &_article{
+        margin-top: 3.2rem;
+        &_title{ 
+            font-family: $secondary_font;
+            padding-left: $margin-mobile;
+            margin-bottom: 3.2rem;
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 47px;
+            color:white;
+               }
+        &_list{
+            padding: 0 $margin-mobile;
+            display: flex;
+            gap:3.2rem;
+            overflow-x: scroll;
+            &_item{
+                &_cover{
+                    width: 26.1rem;
+                    height: 38.6rem;
+                    border-radius: 1.6rem;
+                }
+                &_cooming{
+                    border-radius: 1.6rem;
+                    width: 40rem;
+                    height: 26rem;
+                }
+            }
+         }
+        &_list::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+
+
+@media (min-width: $tablet_breakpoint){
+    .lists {
+        padding-bottom: 4rem;
+            &_article {
+                margin-top: 4rem;
+                &_title {
+                    padding: 0 $margin-tablet;
+                    font-size: 6rem;
+                    line-height: 70px;
+                }
+                &_list {
+                    padding-left: $margin-tablet;
+                    gap: 2.4rem;
+
+                }
+            }
+        }
+}
+@media (min-width: $desktop_breakpoint){
+    .lists {
+            &_article {
+                margin-top: 6.5rem;
+                &_title {
+                    padding: 0 $margin-desktop;
+                    font-size: 7.8rem;
+                    line-height: 91px;
+                }
+                &_list {
+                    padding-left: $margin-desktop;
+                }
+            }
+        }
+}
+@media (min-width: $ultradesktop_breakpoint){
+    .lists {
+            &_article {
+                &_title {
+                    padding: 0 $margin-ultradesktop;
+                }
+                &_list {
+                    padding-left: $margin-ultradesktop;
+                }
+            }
+        }
+}

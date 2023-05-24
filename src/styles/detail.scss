@@ -1,0 +1,190 @@
+@import './core/mixins.scss';
+@import './core/variables.scss';
+
+//footer no queda alineado con elre to página- revisar márgenes
+//user - canviar en header porqué en mixins ya tiene medias
+
+.details{
+    height: 60rem;
+    width: 100vw;
+    background-image: url(../images/img_movie.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.user{
+    @include user;
+}
+.main{
+    background-color: $main-background;
+    position: relative;
+    color: white;
+    &_btns{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding:  4.3rem $margin-mobile 0 $margin-mobile;
+        gap:1.6rem;
+        &_btn1 {
+                @include btn_detail;
+                color: black;
+                background-color: white;
+            }
+        &_btn2 {
+                @include btn_detail;
+                color: white;
+            }
+    }
+    &_info{
+        padding: 3.2rem $margin-mobile 0;
+
+        &_fav{
+            &_cross{
+                position: relative;
+                width: 4.1rem;
+                height: 4rem;
+                margin-left: calc(4.1rem - $margin-mobile);
+                margin-bottom: 1.6rem;
+            &_horizontal {
+                    position: absolute;
+                    top: 50%;
+                    background-color: $btn;
+                    width: 4.1rem;
+                    height: 0.3rem;
+                }
+            
+                &_vertical {
+                    right: 50%;
+                    position: absolute;
+                    background-color: $btn;
+                    width: 0.3rem;
+                    height: 4rem;
+                }
+            }
+
+            &_text{
+                font-family: $secondary_font;
+                font-size: 1.6rem;
+                font-weight: 700;
+                line-height: 1.9rem;
+                color: white;
+                margin-bottom: $margin-mobile;
+            }
+        }
+        &_taq{
+            font-family: $secondary_font;
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1.9rem;
+            color: white; 
+            padding-bottom: 0.8rem; //margen entre lineas???
+            
+        }
+        &_span{
+            padding-left: 0.8rem;
+            font-family: $main_font;
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+        &_stars{
+            display: flex;
+            gap:0.4rem;
+            &_star{
+                background-image: url('../images/star.png');
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+        &_stars :first-child{
+            margin-right: 0.8rem;
+        }
+    }
+    &_descContainer{
+        &_title{
+            padding: 3.2rem $margin-mobile $margin-mobile ;
+            font-family: $secondary_font;
+            font-size: 5.4rem;
+            text-transform: uppercase;
+        }
+        &_desc{
+            padding: 0 $margin-mobile 4rem ;
+            font-family: $main_font;
+            font-size: 2.4rem;
+            line-height: 2.8rem;
+        }
+    }
+    
+}
+
+@media (min-width: $tablet-breakpoint){
+        .main {
+            &_btns {
+                align-items: start;
+                left: $margin-tablet;
+                top: 4rem;
+                gap: 1.6rem;
+            }
+    
+            &_info {
+                padding: $margin-tablet $margin-tablet 0;
+    
+                &_fav {
+                    &_cross {
+                        margin-left: calc(4.1rem - 1.6rem);
+                    }
+                }
+            }
+    
+            &_descContainer {
+                &_title {
+                    padding: $margin-tablet;
+                    font-size: 7.6rem;
+                }
+    
+                &_desc {
+                    padding: 0 $margin-tablet 4rem;
+
+                }
+            }
+        }
+}
+
+@media (min-width: $desktop-breakpoint){
+        .details {
+                height: 80rem;
+            }
+
+            .main {
+                &_btns {
+                    position: absolute;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: end;
+                    padding: 0 $margin-desktop;
+                    top:calc(-3.2rem - 5.7rem);
+                    gap: 1.6rem;
+                }
+        
+                &_info {
+                    padding: 4rem $margin-desktop 1.6rem;
+        
+                    &_fav {
+                        &_cross {
+                            margin-left: calc(4.1rem - $margin-desktop);
+                            margin-bottom: 0.8rem;
+                        }
+                    }
+                }
+        
+                &_descContainer {
+                    &_title {
+                        padding: 4rem  19.4rem 3.4rem $margin-desktop;
+                        font-size: 12.8rem;
+                    }
+        
+                    &_desc {
+                        padding: 0 21.6rem $margin-desktop $margin-desktop;
+                    }
+                }
+        }
+}

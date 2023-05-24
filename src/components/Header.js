@@ -6,7 +6,6 @@ const Header = ({ hovered, handleMouseEnter, handleMouseLeave }) =>{
     return(
         <div className="header">
             <div className="header_content">
-                <img src="" alt="" />
                 <h1 className="header_content_title">The Last of Us</h1>
                 <p className="header_content_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra lacus quam, in molestie dolor consectetur in. Praesent ullamcorper fringilla pharetra.... </p>
                 <button className="header_btn">Discover</button>

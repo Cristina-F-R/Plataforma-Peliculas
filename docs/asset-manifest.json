@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.css": "./static/css/main.5675dbf7.css",
-    "main.js": "./static/js/main.ab19ae2b.js",
+    "main.css": "./static/css/main.83ffb18d.css",
+    "main.js": "./static/js/main.70bdbc2c.js",
     "static/media/img_movie.png": "./static/media/img_movie.3e1394bfb3d12378384f.png",
-    "static/media/fondo.jpg": "./static/media/fondo.374c8193bc99cb5b28fd.jpg",
+    "static/media/fondo.jpg": "./static/media/fondo.23b24a3507cd8e478490.jpg",
+    "static/media/cover_harry.png": "./static/media/cover_harry.0488b4f467969eda5777.png",
+    "static/media/cover_lord.png": "./static/media/cover_lord.4822288c9bfbaa3fdc22.png",
+    "static/media/cover_titanic.png": "./static/media/cover_titanic.960afd2d2fb2ae2029a4.png",
+    "static/media/cover_hangover.png": "./static/media/cover_hangover.90f0a646c1943dc00aad.png",
+    "static/media/cover_swiss.png": "./static/media/cover_swiss.7c2d83feaabf3782414f.png",
+    "static/media/cover_leon.png": "./static/media/cover_leon.2968802ddd81f63c2e29.png",
+    "static/media/cover_machinis.png": "./static/media/cover_machinis.0a2ae67ce0d398537ad9.png",
+    "static/media/cover_spiderman.png": "./static/media/cover_spiderman.e3979c9e6f4a0d3cd64f.png",
+    "static/media/cover_intouchables.png": "./static/media/cover_intouchables.59c6c3f29e3d44d0713c.png",
+    "static/media/cover_snatch.png": "./static/media/cover_snatch.aa8358bc4e189912632f.png",
+    "static/media/cover_memento.png": "./static/media/cover_memento.873fed082de165b17675.png",
+    "static/media/cover_old.png": "./static/media/cover_old.4bf5a314013c38f915f9.png",
+    "static/media/cover_billy.png": "./static/media/cover_billy.72f5b8df176ba0665d0c.png",
+    "static/media/cover_avengers.png": "./static/media/cover_avengers.a938c540c1d6792e5a92.png",
+    "static/media/cover_monsters.png": "./static/media/cover_monsters.c1c83b2d515fdec36794.png",
+    "static/media/cover_american.png": "./static/media/cover_american.601bf7e622560e742bf2.png",
+    "static/media/cover_muerder.png": "./static/media/cover_muerder.2f5544b60f35fab735e6.png",
+    "static/media/cover_forest.png": "./static/media/cover_forest.f7bbe910d203627f1e90.png",
+    "static/media/cover_warrior.png": "./static/media/cover_warrior.b8345210f6b9ab695bc2.png",
+    "static/media/cover_land.png": "./static/media/cover_land.1b7ab02bf02b9c7ed4e6.png",
     "index.html": "./index.html",
-    "main.5675dbf7.css.map": "./static/css/main.5675dbf7.css.map",
-    "main.ab19ae2b.js.map": "./static/js/main.ab19ae2b.js.map"
+    "main.83ffb18d.css.map": "./static/css/main.83ffb18d.css.map",
+    "main.70bdbc2c.js.map": "./static/js/main.70bdbc2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5675dbf7.css",
-    "static/js/main.ab19ae2b.js"
+    "static/css/main.83ffb18d.css",
+    "static/js/main.70bdbc2c.js"
   ]
 }
